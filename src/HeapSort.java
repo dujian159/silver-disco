@@ -1,6 +1,6 @@
 public class HeapSort {
     public static void main(String[] args) {
-        int[] arr = {3,6,4,2,8,7,5,1,9};
+        int[] arr = {3,6,4,2,8,7,5,1,9,10};
         heapSort(arr);
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
